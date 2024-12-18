@@ -59,7 +59,6 @@ function Phone() {
       <div className="mobile_sidebar_create_notes_btn">
         <button onClick={handleClick}>
           <span id="add">+</span>
-          <span>Create Notes Group</span>
         </button>
       </div>
       <div className="mobile_sidebar_notes_title">
