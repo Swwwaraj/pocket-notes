@@ -1,0 +1,42 @@
+.m_notes_content_body {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: flex-start;  
+    width: 95vw;  
+    margin: 2vh auto;
+    background-color: white;
+    padding: 5px 0; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+     
+}  
+.m_notes_content {  
+    background-color: white; 
+    font-size:18px;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    
+}  
+.m_notes_content_details {  
+    min-height: 10vh;
+    margin: 1rem;
+    width: 100%;  
+    text-align: left; 
+    line-height: 1.5;
+} 
+.m_notes_content_date_time_details {  
+    display: flex;  
+    justify-content:right; 
+    margin-right: 2rem;
+    margin-top: 3rem;
+    
+}   
+
+
+.m_notes_content_date, .m_notes_content_time {  
+    font-size: 1vh;   
+    font-weight: 600;  
+    margin-left: 2vh; 
+}  
+
+
